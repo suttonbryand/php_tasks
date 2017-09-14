@@ -8,7 +8,7 @@ const DB_TABLE = "People";
 const DB_USER = "people";
 const DB_PASSWD = "secret";
 
-const INSERT_LIMIT = 1000; 
+const INSERT_LIMIT = 1000; 	// Sets limit on rows to be inserted at once
 
 function insert_rows($rows){
 
