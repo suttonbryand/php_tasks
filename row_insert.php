@@ -31,7 +31,6 @@ function insert_rows($rows){
 		$query .= "('" . $row[0] . "','" . $row[1] . "','" . $row[2] . "','" . $row[3] . "'),";
 
 		if($row_count == INSERT_LIMIT){
-
 			run_query($mysqli,$query);
 			$query_ran = true;
 
