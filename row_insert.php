@@ -49,8 +49,6 @@ function insert_rows($rows){
 		run_query($mysqli,$query);
 	}
 
-
-
 	echo "Done processing\n";
 
 }
